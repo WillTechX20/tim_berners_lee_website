@@ -1,0 +1,140 @@
+html {
+font-family: system-ui;
+scroll-behavior: smooth;
+overflow-x: hidden;
+}
+
+body {
+margin: 0px;
+padding-top: 800px;
+}
+
+.profile_img {
+width: 175px;
+margin-bottom: 50px;
+border-radius: 50%;
+}
+
+section {
+border: 3px solid black;
+margin-bottom: 10px;
+text-align: center;
+border-radius: 20px;
+}
+
+#my_videos, #work, #writings, #contact, #bio {
+background-color: darkseagreen;
+}
+
+
+#welcome {
+position: absolute;
+overflow: hidden;
+height: 800px;
+background: linear-gradient(#D4F542 0%, #4284F5 100%);
+display: table;
+width: 100%;
+height: 100%;
+opacity: 0.83;
+top: 100px;
+bottom: 0px;
+left: 0px;
+right: 0px;
+}
+
+h1 {
+font-size: 40px;
+line-height: 1.2;
+font-weight: 200;
+text-decoration-color: aqua;
+text-decoration: underline;
+}
+
+#name {
+font-size: 30px;
+line-height: 1.2;
+font-family: 'Padauk', sans-serif;
+}
+
+h2 {
+font-size: 30px;
+font-weight: 300;
+line-height: 1.2;
+text-decoration-color: aqua;
+text-decoration: underline;
+}
+
+#bio {
+padding: 50px;
+text-align: center;
+font-size: 42px;
+}
+
+.line {
+height: 6px;
+background-color: black;
+width: 50px;
+margin: 8px auto;
+}
+
+p {
+max-width: 450px;
+margin: 25px auto;
+font-size: 18px;
+line-height: 1.3;
+}
+
+.inner_parallax {
+display: table-cell;
+position: relative;
+text-align: center;
+vertical-align: middle;
+}
+
+.menu_bar {
+position: absolute;
+top: 10px;
+left: 470px;
+background-color: sandybrown;
+border: 3px solid black;
+height: 50px;
+width: 500px;
+text-align: center;
+border-radius: 20px;
+}
+
+.menu_bar ul {
+list-style-type: none;
+display: flex;
+}
+
+.menu_bar ul li a {
+margin-right: 5px;
+}
+
+a {
+text-decoration: none;
+color: black;
+}
+
+a:hover {
+text-decoration: underline;
+text-decoration-color: aqua;
+color: dodgerblue;
+}
+
+.menu_bar ul:first-child {
+margin-left: 50px;
+}
+
+#contact iframe {
+width: 100%;
+}
+
+.contact_info {
+border: 3px solid black;
+margin-bottom: 10px;
+text-align: center;
+border-radius: 20px;
+background-color: darkslategray;
+}
